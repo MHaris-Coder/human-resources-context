@@ -1,0 +1,5 @@
+checkin,checkout,date,employee_registration_id
+12:00:00 PM,8:40:00 PM,2023-09-22,emp_005
+9:21:00 AM,5:30:00 PM,2023-09-22,emp_002
+15:30:00,11:22:00 PM,2023-09-22,emp_001
+10:12:00 AM,5:00:00 PM,2023-09-22,emp_003
