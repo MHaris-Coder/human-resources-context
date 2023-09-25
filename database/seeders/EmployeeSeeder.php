@@ -20,7 +20,7 @@ class EmployeeSeeder extends Seeder
         $payload = [
             [
                 'id' => 1,
-                'employee_id' => 'emp_001',
+                'employee_registration_id' => 'emp_001',
                 'name' => 'Devid',
                 'email' => 'devid@yopmail.com',
                 'dob' => '1990-01-01',
@@ -31,7 +31,7 @@ class EmployeeSeeder extends Seeder
             ],
             [
                 'id' => 2,
-                'employee_id' => 'emp_002',
+                'employee_registration_id' => 'emp_002',
                 'name' => 'John',
                 'email' => 'john@yopmail.com',
                 'dob' => '1990-01-01',
@@ -42,7 +42,7 @@ class EmployeeSeeder extends Seeder
             ],
             [
                 'id' => 3,
-                'employee_id' => 'emp_003',
+                'employee_registration_id' => 'emp_003',
                 'name' => 'Richard',
                 'email' => 'richard@yopmail.com',
                 'dob' => '1990-01-01',
@@ -53,7 +53,7 @@ class EmployeeSeeder extends Seeder
             ],
             [
                 'id' => 4,
-                'employee_id' => 'emp_004',
+                'employee_registration_id' => 'emp_004',
                 'name' => 'Mike',
                 'email' => 'mike@yopmail.com',
                 'dob' => '1990-01-01',
@@ -64,7 +64,7 @@ class EmployeeSeeder extends Seeder
             ],
             [
                 'id' => 5,
-                'employee_id' => 'emp_005',
+                'employee_registration_id' => 'emp_005',
                 'name' => 'Daniel',
                 'email' => 'daniel@yopmail.com',
                 'dob' => '1990-01-01',
