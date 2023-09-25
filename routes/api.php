@@ -19,5 +19,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/attendance-import',[AttendanceController::class,'attendanceImport']);
-Route::post('/attendance-info',[AttendanceController::class,'attendanceInfo']);
+Route::get('/attendance', [AttendanceController::class,'index']);
+Route::post('/attendance-import', [AttendanceController::class,'attendanceImport']);
+Route::post('/attendance-info', [AttendanceController::class,'attendanceInfo']);
